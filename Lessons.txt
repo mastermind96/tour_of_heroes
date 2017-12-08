@@ -1,8 +1,11 @@
 Concepts I Have Learned
 	->Use built-in Angular directives to show and hide elements and display lists of hero data.
 	->Create Angular components.
+	->Create a  Service :(Since components should focus on presenting data):Modularity
+											:Removing data access from components means you can change your mind about the implementation anytime, without touching any components. They don't know how the service works.
 	->Use One-Way binding(for read-only data)
-	->Update model with two-way data binding(for editable textfields)
+	->Synchronous programming: unit of work runs separately from the main application thread and notifies the calling thread of its completion, failure or progress
+	->Update model with two-way data binding(for editable text-fields)
 	->Bind component methods to events(keystrokes/clicks)
 	->Make changes to the data model
 	->Pipes??
