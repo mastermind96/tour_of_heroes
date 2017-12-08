@@ -13,26 +13,13 @@ export class HeroesComponent implements OnInit {
   ngOnInit() {
   }
   onSelect(hero:Hero):void{
-    var txtField = document.getElementById("inputBx");
-    if(txtField.style.display === "none"){
-      txtField.style.display = "block";
-      confirm("doing Something");
+    var Doc = document.getElementById("inputBx");
+    /*if(Doc.style.display === "none"){
+      */this.selectedHero = hero;
+    /*  Doc.style.display = "block";
     }
-    else {
-      txtField.style.display = "none";
-    }
-    //this.toggle();
-    //this.selectedHero = hero;
-
-  }
-  toggle():void{
-    var txtField = document.getElementById("inputBx");
-    if(txtField.style.display === "none"){
-      txtField.style.display = "block";
-      confirm("doing Something");
-    }
-    else {
-      txtField.style.display = "none";
-    }
+    else{
+      Doc.style.display = "none";
+    }*/
   }
 }

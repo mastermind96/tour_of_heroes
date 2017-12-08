@@ -1,0 +1,10 @@
+Concepts I Have Learned
+	->Use built-in Angular directives to show and hide elements and display lists of hero data.
+	->Create Angular components.
+	->Use One-Way binding(for read-only data)
+	->Update model with two-way data binding(for editable textfields)
+	->Bind component methods to events(keystrokes/clicks)
+	->Make changes to the data model
+	->Pipes??
+	->Create shared service?
+	->Routing?
